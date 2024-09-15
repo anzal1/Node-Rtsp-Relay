@@ -2,6 +2,14 @@
 
 This project is a Node.js application designed to relay RTSP streams over WebSocket using `rtsp-relay` and FFmpeg. It runs inside a Docker container, providing a convenient and isolated environment for streaming RTSP feeds.
 
+## Example Usage
+```javascript
+const createRTSPStreamServer = require('rtsp-stream-relay');
+
+// Create the server on port 3000
+const app = createRTSPStreamServer(3000);
+```
+
 ## Features
 
 - Relays RTSP streams over WebSocket.
