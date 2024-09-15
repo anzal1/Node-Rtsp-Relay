@@ -1,0 +1,20 @@
+{
+  "name": "node-rtsp-streaming",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/m3rashid/node-rtsp-streaming.git",
+  "author": "m3rashid <m3rashid.hussain@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "rtsp-relay": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
