@@ -1,20 +1,27 @@
 {
-  "name": "node-rtsp-streaming",
+  "name": "rtsp-stream-relay",
   "version": "1.0.0",
+  "description": "A simple RTSP relay server using Express and WebSocket to stream RTSP feeds.",
   "main": "index.js",
-  "repository": "https://github.com/m3rashid/node-rtsp-streaming.git",
-  "author": "m3rashid <m3rashid.hussain@gmail.com>",
-  "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anzal1/Node-Rtsp-Relay"
+  },
+  "keywords": [
+    "rtsp",
+    "relay",
+    "stream",
+    "websocket",
+    "ffmpeg"
+  ],
+  "author": "Anzal Abidi",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "rtsp-relay": "^1.8.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+    "express": "^4.17.1",
+    "rtsp-relay": "^1.1.0"
   }
 }
