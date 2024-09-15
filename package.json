@@ -1,6 +1,6 @@
 {
   "name": "rtsp-stream-relay",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple RTSP relay server using Express and WebSocket to stream RTSP feeds.",
   "main": "index.js",
   "scripts": {
