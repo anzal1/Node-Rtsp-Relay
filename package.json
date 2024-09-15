@@ -17,6 +17,9 @@
     "websocket",
     "ffmpeg"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "Anzal Abidi",
   "license": "MIT",
   "dependencies": {
